@@ -1,14 +1,14 @@
-# My Go App
+# Espresso
 
 This project is a terminal-based application built with Go that provides a simple GUI and backend functionality. It uses SQLite3 for data storage and management.
 
 ## Project Structure
 
 ```
-my-go-app
+espresso
 ├── cmd
 │   └── main.go          # Entry point of the application
-├── internal
+├── lib
 │   ├── backend
 │   │   └── backend.go   # Backend logic and business handling
 │   ├── gui
@@ -23,12 +23,14 @@ my-go-app
 ## Setup Instructions
 
 1. **Clone the repository:**
+
    ```
    git clone <repository-url>
-   cd my-go-app
+   cd espresso
    ```
 
 2. **Install dependencies:**
+
    ```
    go mod tidy
    ```
